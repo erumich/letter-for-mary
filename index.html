@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8605de4a2b.js"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/images/arbor_day_site_favicon.png">
+    <title>Arbor-Day-Website</title>
+</head>
+<body>
+
+    <header>
+        <!-- <a class = "skip" href="#main">Skip to Main content</a> -->
+
+  <nav>
+    <!-- Always visible items in the nav bar -->
+    <!-- <a href="index.html" class="home"><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a> -->
+    <!-- The hamburger menu -->
+    <label for="menu" tabindex="0" aria-label="navigation bar" aria-expanded="false" onkeydown="toggleMenu(event)">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+    <input id="menu" type="checkbox">
+    <!-- The collapsable menu -->
+    <ul>
+        <li><a href = "index.html" class = "active-page">Home</a></li>
+        <li><a href = "resources.html">Resources</a></li>
+
+    </ul>
+</nav>
+
+    </header>
+    <main id="main">
+        <div id="content">
+        <div id="poem-div">
+                <p class = "poem" id = "line1">When I am among the trees,</p><br>
+                    <p class = "poem" id = "line2">especially the willows and the honey locust,</p><br>
+                        <p class = "poem" id = "line3">equally the beech, the oaks and the pines,</p><br>
+                            <p class = "poem" id = "line4">they give off such hints of gladness,</p><br>
+                                <p class = "poem" id = "line5">I would almost say that they save me, and daily.</p><br><br class ="paragraph-space">
+                                    <p class = "poem" id = "line6">I am so distant from the hope of myself,</p><br>
+                                    <p class = "poem" id = "line7">in which I have goodness, and discernment,</p><br>
+                                        <p class = "poem" id = "line8">and never hurry through the world</p><br>
+                                            <p class = "poem" id = "line9">but walk slowly, and bow often.</p><br><br class ="paragraph-space">
+                                                <p class = "poem" id = "line10">Around me the trees stir in their leaves</p><br>
+                                                <p class = "poem" id = "line11">and call out, "Stay awhile."</p><br>
+                                                    <p class = "poem" id = "line12">The light flows from their branches.</p><br><br class ="paragraph-space">
+                                                        <p class = "poem" id = "line13">And they call again, "It's simple," they say,</p><br>
+                                                        <p class = "poem" id = "line14">"and you too have come</p><br>
+                                                            <p class = "poem" id = "line15">into the world to do this, to go easy, to be filled</p><br>
+                                                                <p class = "poem" id = "line16">with light, and to shine."</p><br>
+                                                                <p class = "poem" id = "line17">Happy Arbor Day.</p><br>
+                                                                <h1 class = "poem-title" id = "title">When I Am Among the Trees</h1><br>
+                                                                <h1 class = "poem-title" id = "author">by Mary Oliver</h1><br>
+
+        </div>
+<!-- slideshow from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+        <!-- Slideshow container -->
+<div class="slideshow-container" id = "story">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 17</div>
+      <img src="images/tree1.svg" style="width:100%" alt="tree sapling just starting to grow">
+      <div class="text">When I am among the trees,</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 17</div>
+      <img src="images/tree2.svg" style="width:100%" alt="tree sapling, now a little taller">
+      <div class="text">especially the willows and the honey locust,</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 17</div>
+      <img src="images/tree3.svg" style="width:100%" alt="tree sapling, its two leaves fuller than before">
+      <div class="text">equally the beech, the oaks and the pines,</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 17</div>
+        <img src="images/tree4.svg" style="width:100%" alt="tree sapling with a few more leaves">
+        <div class="text">they give off such hints of gladness,</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 17</div>
+        <img src="images/tree5.svg" style="width:100%"  alt="tree sapling with even more leaves">
+        <div class="text">I would almost say they save me, and daily.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 17</div>
+        <img src="images/tree6.svg" style="width:100%" alt="tree sapling continues to grow">
+        <div class="text">I am so distant from the hope of myself,</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 17</div>
+        <img src="images/tree7.svg" style="width:100%" alt="tree sapling looks more like a tree than a twig">
+        <div class="text">in which I have goodness, and discernment,</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 17</div>
+        <img src="images/tree8.svg" style="width:100%" alt="a young, small tree">
+        <div class="text">and never hurry through the world</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 17</div>
+        <img src="images/tree9.svg" style="width:100%" alt="a teenage tree">
+        <div class="text">but walk slowly, and bow often.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 17</div>
+        <img src="images/tree10.svg" style="width:100%" alt="a young adult tree">
+        <div class="text">Around me the trees stir in their leaves</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">11 / 17</div>
+        <img src="images/tree11.svg" style="width:100%" alt="a small adult tree">
+        <div class="text">and call out, "Stay awhile."</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">12 / 17</div>
+        <img src="images/tree12.svg" style="width:100%" alt="an almost fully grown tree">
+        <div class="text">The light flows from their branches.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">13 / 17</div>
+        <img src="images/tree13.svg" style="width:100%" alt="a fully grown tree">
+        <div class="text">And they call again, "It's simple," they say,</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">14 / 17</div>
+        <img src="images/tree14.svg" style="width:100%" alt="tree in the fall, leaves turning yellow">
+        <div class="text">"and you too have come"</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">15 / 17</div>
+        <img src="images/tree15.svg" style="width:100%" alt="tree in the winter, branches covered in snow">
+        <div class="text">into the world to do this, to go easy, to be filled</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">16 / 17</div>
+        <img src="images/tree16.svg" style="width:100%" alt="tree in the spring, new leaves starting to grow">
+        <div class="text">with light, and to shine."</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">17 / 17</div>
+        <img src="images/tree17.svg" style="width:100%" alt="tree in the summer, full and leafy">
+        <div class="text" id="arbor-day-msg">It's Arbor Day! Let's Celebrate Together!</div>
+        <div><a  id="arborDayLink" class="link" tabindex="3" aria-label="Resources" href = "resources.html">Resources</a></div>
+      </div>
+
+
+    <!-- Next and previous buttons -->
+    <a class="next" aria-label="Next Slide" tabindex="0" onclick="plusSlides(1)" onkeydown="handleKey(event, 1)">&#10095;</a>
+    <a class="prev" aria-label="Previous Slide" tabindex="0" onclick="plusSlides(-1)" onkeydown="handleKey(event, -1)">&#10094;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+  </div>
+
+  <div aria-live="polite" class="visually-hidden" id="slideStatus1">Slide 1 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus2">Slide 2 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus3">Slide 3 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus4">Slide 4 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus5">Slide 5 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus6">Slide 6 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus7">Slide 7 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus8">Slide 8 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus9">Slide 9 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus10">Slide 10 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus11">Slide 11 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus12">Slide 12 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus13">Slide 13 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus14">Slide 14 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus15">Slide 15 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus16">Slide 16 of 17</div>
+  <div aria-live="polite" class="visually-hidden" id="slideStatus17">Slide 17 of 17</div>
+
+    <div id="audioPlayer"><audio controls style="width:200px" autoplay muted aria-label="Relaxing forest sounds with birds chirping">
+    <source src="sounds/528661__taavhaap__relaxing-forest-birds-chirping-in-the-north-woods.wav" type="audio/wav" id="forestSounds">
+  Your browser does not support the audio element.
+  </audio></div>
+  <!-- <a href="https://freesound.org/people/taavhaap/sounds/528661/">Relaxing Forest Birds Chirping in the North Woods</a> by <a href="https://freesound.org/people/taavhaap/">taavhaap</a> | License: <a href="https://creativecommons.org/licenses/by/4.0/">Attribution 4.0</a> -->
+
+  <!-- https://stackoverflow.com/questions/73317755/how-do-i-control-the-width-and-height-of-the-audio-tag -->
+</div>
+    </main>
+
+    <footer>
+      <p>© Copyrights <span id="year"></span> Erin Ruark / UMSI.</p>
+      <p id="soundCopyright">Relaxing Forest Birds Chirping in the North Woods by taavhaap on freesound.org</p>
+        </footer>
+        <script src="js/animations.js"></script>
+      </body>
+</html>

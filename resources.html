@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/8605de4a2b.js"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="/images/arbor_day_site_favicon.png">
+<title>Arbor-Day-Website-Resource-Pg</title>
+</head>
+<body>
+
+    <header>
+        <a class = "skip" href="#main">Skip to Main content</a>
+
+  <nav>
+    <!-- Always visible items in the nav bar -->
+    <!-- <a href="index.html" class="home"><img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo"></a> -->
+    <!-- The hamburger menu -->
+    <label for="menu" tabindex="0" aria-label="navigation bar" aria-expanded="false" onkeydown="toggleMenu(event)">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <input id="menu" type="checkbox">
+    <!-- The collapsable menu -->
+    <ul>
+        <li><a href = "index.html">Home</a></li>
+        <li><a href = "resources.html" class = "active-page">Resources</a></li>
+    </ul>
+</nav>
+
+    </header>
+    <main id="main">
+        <div id="resource-content">
+        <h1>Resources</h1>
+        <h2>For Kids</h2>
+        <ul class = "resource-list" id="kid-resources">
+            <li><i class="fa-solid fa-tree"></i><a href ="https://www.arborday.org/youth-education" >Arbor Day Youth Education</a></li>
+        </ul>
+        <h2>For Students</h2>
+        <ul class = "resource-list" id="umich-resources">
+            <li><i class="fa-solid fa-tree"></i><a href = "https://ocs.umich.edu/programs/waste-reduction/composting/">Composting on Campus</a></li>
+            <li><i class="fa-solid fa-tree"></i><a href = "https://pba.umich.edu/why-composting-shouldnt-be-your-first-choice/">Why Composting Shouldn't Be Your First Choice</a></li>
+            <li><i class="fa-solid fa-tree"></i><a href = "https://ocs.umich.edu/resources/where-to-throw/">Recycling on Campus</a></li>
+            </ul>
+        <h2>For Anyone in Tree Town</h2>
+        <ul class = "resource-list" id="aa-resources">
+            <li><i class="fa-solid fa-tree"></i><a href = "https://www.a2gov.org/trash-recycle-compost/compost/">Ann Arbor Composting</a></li>
+            <li><i class="fa-solid fa-tree"></i><a href = "https://www.a2gov.org/trash-recycle-compost/recycle/">Ann Arbor Recycling</a></li>
+            <li><i class="fa-solid fa-tree"></i><a href = "https://www.recycleannarbor.org/a-z-recycling-guide">A-Z Recycling Guide</a></li>
+        </ul>
+        <img src="images/walnut_tree_illustration_vector_beige.png" alt="walnut tree illustration">
+        <!-- walnut tree illustration - https://timelessmoon.getarchive.net/amp/media/walnut-tree-77b701 -->
+    </div>
+    </main>
+
+    <footer>
+      <p>© Copyrights <span id="year"></span> Erin Ruark / UMSI.</p>
+      <p id="soundCopyright">Relaxing Forest Birds Chirping in the North Woods by taavhaap on freesound.org</p>
+
+        </footer>
+        <script src="js/animations.js">
+  </script>
+    </body>
+</html>
